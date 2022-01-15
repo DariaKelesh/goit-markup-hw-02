@@ -12,6 +12,8 @@
 }
 .page {
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+
   color: var(--primary-text-color);
 }
 .list {
@@ -35,7 +37,7 @@
 /* Logo */
 .logo {
   color: #000000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
 }
@@ -82,33 +84,29 @@
   color: var(--btn-color);
   background-color: var(--accent-color);
   border-color: transparent;
+
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
+
+  cursor: pointer;
 }
 /* section */
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 .section-subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
 }
 .subtitle-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 /* ADVANTAGES */
