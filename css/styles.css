@@ -70,9 +70,12 @@
   color: var(--accent-color);
 }
 /* Hero */
+.hero {
+  background-color: var(--background-section-color);
+}
 .hero-title {
   color: #ffffff;
-  background-color: var(--background-section-color);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -109,9 +112,18 @@
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
+
+/* FEATURES */
+
 /* ADVANTAGES */
 .advantages-descr {
   text-transform: uppercase;
+}
+
+/* TEAM */
+
+.team {
+  background-color: #f5f4fa;
 }
 
 /* Footer */
@@ -136,11 +148,16 @@
 .projects-button {
   background-color: #f5f4fa;
   color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.63;
 }
 .projects-button:hover,
 .projects-button:focus {
   background-color: var(--accent-color);
   color: var(--btn-color);
+}
+.projects-name-link {
+  color: var(--primary-text-color);
 }
 .projects-name-link:hover,
 .projects-name-link:focus {
